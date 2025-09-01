@@ -22,7 +22,7 @@ Programa Java que solicita datos de un vehículo y los muestra en pantalla, comp
 |-------------------------------|---------------|-------------|
 | Elaboración del código       | 29/08/2025 | 30/08/2025 |
 | Compilación y pruebas       | 30/08/2025 | 30/08/2025 |
-| Documentación en GitHub | 30/08/2025 | 31/08/2025 |
+| Documentación en GitHub | 30/08/2025 | 01/09/2025 |
 | Elaboración del informe      | 01/09/2025 | 01/09/2025 |
 
 ## Proceso de compilación y ejecución
