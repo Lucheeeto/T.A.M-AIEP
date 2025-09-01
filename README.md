@@ -11,7 +11,7 @@ Programa Java que solicita datos de un vehículo y los muestra en pantalla, comp
 ### No Funcionales
 - Compilado con JDK 8.
 - Ejecutado en línea de comandos (sin IDE).
-- Compatible con sistemas Windows/Linux/Mac.
+- Compatible con sistema Windows.
 
 ## Historias de usuario
 - Como usuario, quiero ingresar los datos de mi vehículo para ver un resumen de la información.
