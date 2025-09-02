@@ -7,6 +7,18 @@ public class Vehiculo {
     public static void main(String[] args) {
         //Crear Try y objeto Scanner para leer las entradas desde la consola, ademas de cerrar Scanner automaticamente al finalizar//
         try (Scanner scanner = new Scanner(System.in)) {
+            //solicitar al usuario que ingrese su nombre//
+            System.out.print("Ingrese su nombre: ");
+            //leer el nombre ingresado por el usuario y almacenarla en la variable "nombre"//
+            String nombre = scanner.nextLine();
+
+            //solicitar al usuario que ingrese su edad//
+            System.out.print("Ingrese su edad: ");
+            //leer la edad ingresada por el usuario y almacenarla en la variable "edad"//
+            int edad = scanner.nextInt();
+            //limpiar salto de linea//
+            scanner.nextLine();
+
             //solicitar al usuario que ingrese la marca del vehiculo//
             System.out.print("Ingrese la marca: ");
             //leer la marca ingresada por el usuario y almacenarla en la variable "marca"//
@@ -33,7 +45,9 @@ public class Vehiculo {
             int pasajeros = scanner.nextInt();
 
             //Muestra en consola los datos ingresados por el usuario//
-            System.out.println("\nLa marca que ha ingresado es: " + marca);
+            System.out.println("\nNombre: " + nombre);
+            System.out.println("Edad: " + edad);
+            System.out.println("La marca que ha ingresado es: " + marca);
             System.out.println("El modelo que ha ingresado es: " + modelo);
             System.out.println("La cilindrada que ha ingresado es: " + cilindrada);
             System.out.println("El tipo de combustible es: " + combustible);
